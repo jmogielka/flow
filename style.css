@@ -36,6 +36,7 @@ body{
     background-color: var(--dark-green);
     color: white;
     width: 100%;
+    overflow: hidden;
 }
 #logo_mobile{
     display: none;
@@ -173,7 +174,7 @@ button{
     height:fit-content;
     width: calc(100%-16px);
     display: flex;
-    overflow-x: clip;
+    overflow-x: hidden;
 }
 
 .t300{
@@ -530,6 +531,7 @@ footer ul>li>a{
 }
 
 .lines{
+    max-width: 100%;
     position: absolute;
     overflow-y: clip;
 }
